@@ -1,0 +1,42 @@
+.home {
+    height: 200vh;
+}
+
+.landing-wrap {
+    height: 100vh;
+    background-image: url('../../images/pngaaa.com-1620351.png');
+    background-position: 80%;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position-y: 60%;
+}
+
+.landing {
+    height: 100vh;
+    margin-left: 17%;
+    padding-top: 190px;
+}
+
+.slogan {
+    font-weight: 400;
+}
+
+.email {
+    height: 40px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid black;
+    width: 280px;
+    padding-left: 20px;
+    outline: none;
+}
+
+.sign-up {
+    border: none;
+    height: 43px;
+    margin-left: 20px;
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+}

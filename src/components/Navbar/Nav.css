@@ -1,0 +1,61 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    height: 3rem;
+    position: fixed;
+    width: 100vw;
+    background-color: #fcde67;
+    border-bottom: 2px solid black;
+}
+
+
+.logo {
+    color: rgb(0, 0, 0);
+    font-size: 1.6rem;
+    padding-top: 7px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+nav {
+    gap: 30px;
+    display: flex;
+    padding-top: 20px;
+}
+
+.nav-link {
+    font-size: 0.8rem;
+    color: black;
+    font-weight: 500;
+}
+
+.menu-bar {
+    display: none;
+    cursor: pointer;
+    border: none;
+    color: black;
+    padding-top: 16px;
+    font-weight: 100;
+}
+
+@media (max-width:800px) {
+    nav {
+        display: none;
+    }
+    .menu-bar {
+        display: block;
+    }
+    .nav {
+        justify-content: space-between;
+    }
+    .logo {
+        padding-left: 30px;
+    }
+    .menu-bar {
+        padding-right: 30px;
+    }
+}
